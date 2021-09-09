@@ -1,0 +1,11 @@
+docker build -t project .
+docker run -t -i -v /c/Users/AVAJANG/desktop/docker-output:/c/shareddata project
+docker start trusting_saha
+docker attach trusting_saha
+
+min /c/shareddata/in/file1.txt /c/shareddata/out/
+
+docker rename my_container my_new_container
+
+{<Wordcount,/c/shareddata/in/file2.txt>}
+{<min,/c/shareddata/in/file1.txt>, <max,/c/shareddata/in/file1.txt>, <average,/c/shareddata/in/file1.txt>}

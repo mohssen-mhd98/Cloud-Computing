@@ -1,0 +1,5 @@
+helllo this is just a test for docker
+arshia is writing this test file to check if docker works
+i am also creating a container from this docker image
+arshia arshia 
+helllo this mis yeganeh also 
